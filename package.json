@@ -1,0 +1,39 @@
+{
+	"name": "@virtual-programmers-network/website-nuxt",
+	"version": "0.999.001",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"build": "nuxt build",
+		"dev": "nuxt dev",
+		"generate": "nuxt generate",
+		"preview": "nuxt preview",
+		"postinstall": "nuxt prepare"
+	},
+	"devDependencies": {
+		"@nuxt/content": "^2.9.0",
+		"@nuxt/devtools": "latest",
+		"@nuxt/image": "^1.1.0",
+		"@nuxtjs/color-mode": "^3.3.2",
+		"@tailwindcss/typography": "^0.5.10",
+		"autoprefixer": "^10.4.16",
+		"bootstrap": "^5.3.2",
+		"bootstrap-icons": "^1.11.2",
+		"emoticon": "^4.0.1",
+		"less": "^4.2.0",
+		"nuxt": "^3.8.2",
+		"postcss": "^8.4.31",
+		"rehype-external-links": "^3.0.0",
+		"remark-emoji": "^4.0.1",
+		"remark-gfm": "^4.0.0",
+		"remark-math": "^6.0.0",
+		"remark-toc": "^9.0.0",
+		"sass": "^1.69.5",
+		"shikiji": "^0.7.4",
+		"tailwindcss": "^3.3.5",
+		"vue": "^3.3.8",
+		"vue-router": "^4.2.5",
+		"yaml": "^2.3.4"
+	},
+	"packageManager": "pnpm@8.11.0"
+}

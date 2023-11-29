@@ -1,0 +1,65 @@
+# 内部で使用するID, 他の人と被らない適当な英数字
+tamayurasouki:
+    # Required, 一般的な名前
+    name: "珠響 そうき"
+    # Optional, メンバー一覧で表示される名前の読み
+    alphabetName: "Tamayura Souki"
+    # Optional, アイコン画像のパス, 詳細は画像のアップロード方法参照
+    # "vpn-website-resource/public/author-icons/tamayurasouki.png"を参照している
+    iconPath: "/author-icons/tamayurasouki.png"
+    # Optional, メンバー一覧でタグ形式で表記される
+    favs:
+        - "Python"
+        - "Machine_Learning"
+        - "CS"
+        - "Rust"
+        - "Amateur"
+    # Optional, メンバー一覧やブログの著者部分につくリンク
+    homepageUrl: "https://twitter.com/tamayurasouki"
+
+kuronekito:
+    name: "黒音 キト"
+
+bodakosuzu:
+    name: "帽田こすず"
+    alphabetName: "Boda Kosuzu"
+    iconPath: "/author-icons/bodakosuzu.png"
+    favs:
+        - "JavaScript"
+        - "Vue.js"
+
+haruelico:
+    name: "晴栄リコ"
+    alphabetName: "Lico Harue"
+    iconPath: "/author-icons/haruelico.jpg"
+    favs:
+        - Ruby
+        - TypeScript
+        - Web
+        - Container
+        - Go
+        - Flutter
+    homepageUrl: "https://haruelico.github.io/website/"
+
+Aruta:
+    name: "あるた"
+    alphabetName: "Aruta"
+    iconPath: "/author-icons/Aruta.png"
+    favs:
+        - "PACHISLOT"
+        - "C++"
+        - "C#"
+        - "VBA"
+    homepageUrl: "https://twitter.com/vnew_programmer"
+
+shota16sakitsu:
+    name: "崎津 祥汰"
+    alphabetName: Shota Sakitsu
+    favs:
+        - N⁸⁸-BASIC(86)
+        - VB.Net
+        - C#.Net
+        - Vue
+        - Java
+        - PHP
+        - TypeScript

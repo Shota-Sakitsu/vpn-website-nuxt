@@ -1,0 +1,30 @@
+@import url("https://api.isnow.jp/fonts/plemoljp/hide-space/css/plemoljp-hs.css");
+@import url("https://api.isnow.jp/fonts/plex/css/ibm-plex.min.css");
+@import url("https://api.isnow.jp/fonts/plex/css/ibm-plex-sans-jp.min.css");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	@apply tw-antialiased tw-bg-gray-100 tw-text-gray-700 dark:tw-bg-gray-900 dark:tw-text-gray-300;
+	font-family: "IBM Plex Sans", "IBM Plex Sans JP", sans-serif;
+}
+
+pre, code, output {
+	font-family: "PlemolJP HS", monospace;
+}
+
+.shiki,
+.shiki span {
+	color: var(--shiki-default) !important;
+	background-color: var(--shiki-default-bg) !important;
+}
+
+html.tw-dark .shiki,
+html.tw-dark .shiki span {
+	color: var(--shiki-dark) !important;
+	background-color: var(--shiki-dark-bg) !important;
+	font-style: var(--shiki-dark-font-style) !important;
+	font-weight: var(--shiki-dark-font-weight) !important;
+	text-decoration: var(--shiki-dark-text-decoration) !important;
+}
